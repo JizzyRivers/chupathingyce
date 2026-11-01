@@ -2287,6 +2287,8 @@ next epoch for that ("Epochs", above).
 Delta is public: this document is its specification, and anyone may build a
 client, server or tool that speaks it. Nothing in it depends on being
 ChupathingyCE, and nothing is kept secret but signing keys.
+[Joining Delta](delta-for-other-ports.md) puts it in steps for another
+port's or server's authors.
 
 Delta may grow past OpenCE's game protocol: a capability can change the game
 protocol itself (co-op, CE map identity, sync), not only add messages beside
